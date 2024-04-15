@@ -1,0 +1,58 @@
+#gameContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #7f7f7f;
+}
+
+canvas#gameCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: transparent;
+}
+
+/* Additional styling from your script */
+.emscripten {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.emscripten_border {
+    border: 4px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: powderblue;
+}
+
+.topright, .bottomright {
+    position: absolute;
+    right: 0;
+}
+
+.topright {
+    top: 0;
+}
+
+.bottomright {
+    top: 40%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trinfo, .framed {
+    border: 1px solid black;
+}
+
+.framed {
+    position: relative;
+    top: 150px;
+    right: 10px;
+}
